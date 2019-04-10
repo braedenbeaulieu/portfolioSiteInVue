@@ -7,8 +7,6 @@
         <nav id="nav">
             <ul>
                 <router-link class="link" id="portfolioLink" to="/portfolio">Portfolio</router-link>
-                <router-link class="link" id="skillsLink" to="/skills">Skills</router-link>
-                <router-link class="link" id="achievementsLink" to="/achievements">Achievements</router-link>
                 <router-link class="link" id="aboutLink" to="/about">About</router-link>
                 <router-link class="link" id="contactLink" to="/contact">Contact</router-link>
             </ul>
@@ -57,8 +55,7 @@ export default {
 
                 &:hover
                     cursor: pointer
-                    background: #888
-                    color: white	
+                    color: $p-blue	
 
             .router-link-exact-active
                 color: $p-blue

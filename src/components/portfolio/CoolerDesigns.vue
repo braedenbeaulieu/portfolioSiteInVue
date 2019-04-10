@@ -2,14 +2,11 @@
     <div class="cooler-designs project">
         <h3>Cooler Designs</h3>
         <div class="info-container">
-            <a href="http://www.firehousecatering.ca" target="_blank"><img class="project-image" src="../../assets/images/coolerDesigns.jpg" /></a>
+            <a href="https://www.coolerdesigns.ca" target="_blank"><img class="project-image" src="../../assets/images/coolerDesigns.jpg" /></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus gravida turpis sed rutrum. 
-                Suspendisse potenti. Duis nisl lorem, dictum eget tincidunt sit amet, commodo ac nunc. 
-                Vestibulum sed sem sed ex aliquam euismod ac sed nibh. 
-                Praesent sit amet turpis a magna rutrum volutpat. Nullam eget rhoncus felis, nec vehicula neque. 
-                Suspendisse interdum, ligula tincidunt eleifend dictum, ipsum nisi vehicula massa, 
-                nec vestibulum lectus erat luctus lectus.
+                I have a friend who is a graphic designer. He asked me if I could create a website to showcase everything he's made.
+                He came to me with a few ideas and we sat together and designed this. You may want to hire him! 
+                Click the image to check out the site and some of his work.
             </p>
         </div>
     </div>

@@ -44,8 +44,27 @@ export default {
     height: 100vh
 
     section
-      width: 75%
+      width: 850px
       margin: 0 auto
-      height: 100vh
+      padding-bottom: 50px
+
+      h3
+        padding: 20px 0 10px
+        margin-bottom: 10px
+        font-size: 1.5em
+        color: $p-blue
+        border-bottom: 1px solid $p-blue
+
+      p
+        line-height: 25px
+        font-size: 1.1em
+        text-indent: 20px
+        margin: 0 0 10px
+
+@media screen and (max-width: 1250px)
+  #app
+    .container
+      section
+        width: 80%
       
 </style>

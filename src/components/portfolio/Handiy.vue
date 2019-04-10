@@ -1,15 +1,13 @@
 <template>
     <div class="handiy project">
-        <h3>Handiy</h3>
+        <h3>HanDIY</h3>
         <div class="info-container">
-            <a href="http://www.firehousecatering.ca" target="_blank"><img class="project-image" src="../../assets/images/firehouseCatering.png" /></a>
+            <a href="http://www.handiy.ca" target="_blank"><img class="project-image" src="../../assets/images/HanDIY.jpg" /></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus gravida turpis sed rutrum. 
-                Suspendisse potenti. Duis nisl lorem, dictum eget tincidunt sit amet, commodo ac nunc. 
-                Vestibulum sed sem sed ex aliquam euismod ac sed nibh. 
-                Praesent sit amet turpis a magna rutrum volutpat. Nullam eget rhoncus felis, nec vehicula neque. 
-                Suspendisse interdum, ligula tincidunt eleifend dictum, ipsum nisi vehicula massa, 
-                nec vestibulum lectus erat luctus lectus.
+                A guy I know came to me one day saying he is starting a company and would like someone to
+                do a website for him. He gave me a few colours and folder with stock images and told me 
+                I had 100% creative control. This is my first attempt at a real website and 
+                although it was never truely finished, I'm happy with how the look turned out.
             </p>
         </div>
     </div>

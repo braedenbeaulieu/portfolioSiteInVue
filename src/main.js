@@ -5,6 +5,8 @@ import Icon from 'vue-awesome/components/Icon'
 import VueRouter from 'vue-router'
 import jQuery from 'jquery'
 
+// for font awesome icons
+Vue.component('v-icon', Icon)
 
 // ***********ROUTING************
 import Portfolio from './components/Portfolio.vue';
@@ -27,9 +29,6 @@ const router = new VueRouter({
 })
 
 // ***********ROUTING************
-
-
-Vue.component('v-icon', Icon)
 
 Vue.config.productionTip = false
 

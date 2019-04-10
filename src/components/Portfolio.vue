@@ -24,38 +24,27 @@ export default {
 
 <style lang="sass">
     @import '../sass/_variables'
+    .portfolio
+        .project
+            height: auto
 
-    .project
-        border-bottom: 2px solid $lightgrey
-        min-height: 400px
+            .info-container
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding-top: 10px
 
-        &:last-of-type
-            border: none
+                a   
+                    width: 45%
 
-        h3
-            padding: 20px 0
-            font-size: 1.5em
-
-        .info-container
-            display: flex
-            justify-content: space-between
-            align-items: center
-
-            a   
-                width: 45%
-
-                .project-image
-                    width: 100%
-                    max-height: 250px
-                    border: 2px solid $grey
-                    border-radius: 4px
-             
-            p
-                width: 45%
-                height: 250px
-                line-height: 30px
-                font-size: 1.1em
-                text-indent: 20px
+                    .project-image
+                        width: 100%
+                        max-height: 250px
+                        border: 2px solid $grey
+                        border-radius: 4px
+                
+                p 
+                    width: 45%
 
     @media screen and (max-width: 1250px)
         .portfolio
@@ -71,7 +60,6 @@ export default {
 
                         .project-image
                             width: 100%
-                            
 
                     p
                         width: 100%

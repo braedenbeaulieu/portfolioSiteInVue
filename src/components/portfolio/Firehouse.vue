@@ -4,12 +4,9 @@
         <div class="info-container">
             <a href="http://www.firehousecatering.ca" target="_blank"><img class="project-image" src="../../assets/images/firehouseCatering.png" /></a>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus gravida turpis sed rutrum. 
-                Suspendisse potenti. Duis nisl lorem, dictum eget tincidunt sit amet, commodo ac nunc. 
-                Vestibulum sed sem sed ex aliquam euismod ac sed nibh. 
-                Praesent sit amet turpis a magna rutrum volutpat. Nullam eget rhoncus felis, nec vehicula neque. 
-                Suspendisse interdum, ligula tincidunt eleifend dictum, ipsum nisi vehicula massa, 
-                nec vestibulum lectus erat luctus lectus.
+                Firehouse Catering is a website I worked on in a group project for school. This was our first attempt
+                at teaching ourselves Git and also my first time learning how difficult it can be to work on a website
+                with three other people. Click the image to look through what we created.
             </p>
         </div>
     </div>
