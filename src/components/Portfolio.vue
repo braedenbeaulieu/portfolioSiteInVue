@@ -22,19 +22,18 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-
-</style>
-
 <style lang="sass">
     @import '../sass/_variables'
 
     .project
         border-bottom: 2px solid $lightgrey
-        height: 400px
+        min-height: 400px
+
+        &:last-of-type
+            border: none
 
         h3
-            padding: 20px
+            padding: 20px 0
             font-size: 1.5em
 
         .info-container
@@ -42,19 +41,41 @@ export default {
             justify-content: space-between
             align-items: center
 
-            .project-image
+            a   
                 width: 45%
-                max-height: 250px
-                border: 2px solid $grey
-                border-radius: 4px
-                background: pink
+
+                .project-image
+                    width: 100%
+                    max-height: 250px
+                    border: 2px solid $grey
+                    border-radius: 4px
              
             p
-                display: block
                 width: 45%
                 height: 250px
                 line-height: 30px
                 font-size: 1.1em
                 text-indent: 20px
+
+    @media screen and (max-width: 1250px)
+        .portfolio
+            .project
+                height: auto
+
+                .info-container
+                    flex-wrap: wrap
+
+                    a
+                        width: 450px
+                        margin: 20px auto
+
+                        .project-image
+                            width: 100%
+                            
+
+                    p
+                        width: 100%
+                        margin: 20px 0
+                        height: auto
 
 </style>

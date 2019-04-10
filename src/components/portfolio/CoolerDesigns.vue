@@ -2,7 +2,7 @@
     <div class="cooler-designs project">
         <h3>Cooler Designs</h3>
         <div class="info-container">
-            <img class="project-image" src="../../assets/images/coolerDesigns.jpg" />
+            <a href="http://www.firehousecatering.ca" target="_blank"><img class="project-image" src="../../assets/images/coolerDesigns.jpg" /></a>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus gravida turpis sed rutrum. 
                 Suspendisse potenti. Duis nisl lorem, dictum eget tincidunt sit amet, commodo ac nunc. 
