@@ -12,13 +12,14 @@ Vue.component('v-icon', Icon)
 import Portfolio from './components/Portfolio.vue';
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
+import Landing from './components/Landing.vue'
 
 global.$ = jQuery;
 
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Portfolio },
+  { path: '/', component: Landing },
   { path: '/portfolio', component: Portfolio },
   { path: '/about', component: About },
   { path: '/contact', component: Contact }

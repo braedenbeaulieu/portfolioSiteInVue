@@ -32,6 +32,8 @@ export default {
   .subtitle
     text-align: center
     font-size: 3em
+    font-weight: 900
+    color: $grey
     padding: 30px 0
 
   .link
@@ -49,7 +51,7 @@ export default {
       padding-bottom: 50px
 
       h3
-        padding: 20px 0 10px
+        padding: 40px 0 10px
         margin-bottom: 10px
         font-size: 1.5em
         color: $p-blue
@@ -66,5 +68,10 @@ export default {
     .container
       section
         width: 80%
+
+@media screen and (max-width: 640px)
+  #app
+    .container
+      padding: 50px 0 0   
       
 </style>
