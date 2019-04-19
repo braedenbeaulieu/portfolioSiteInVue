@@ -7,6 +7,11 @@
                 {{project.description}}
             </p>
         </div>
+        
+        <div class="technologies">
+            <p class="tech">Technologies:</p>
+            <i :key="icon" v-for="icon in project.icons" :class="`${icon}`"></i>
+        </div>
     </div>
 </template>
 

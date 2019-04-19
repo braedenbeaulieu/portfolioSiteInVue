@@ -27,6 +27,7 @@ export default {
     flex-wrap: wrap
     box-shadow: 3px 3px 30px rgba(0, 0, 0, .5)
     margin: 0
+    cursor: default
     
     div
         img
@@ -58,9 +59,6 @@ export default {
             cursor: pointer
             transition: all .3s
             z-index: 1
-
-        &:hover
-            text-shadow: 0 0 20px rgba(255, 255, 255, .8)
 
 @media screen and (max-width: 640px)
 	.landing
