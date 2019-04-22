@@ -2,7 +2,9 @@
   <div id="app">
     <Header />
     <div class="container">
-      <router-view></router-view>
+      <transition name="the-router">
+        <router-view></router-view>
+      </transition>
     </div>
   </div>
 </template>
@@ -15,7 +17,7 @@ export default {
   name: 'app',
   components: {
     Header
-  }
+  } 
 }
 </script>
 
@@ -23,6 +25,7 @@ export default {
 
 @import './sass/_reset'
 @import './sass/_variables'
+@import './sass/_animations'
 
 #app 
   font-family: 'Avenir', Helvetica, Arial, sans-serif
@@ -62,6 +65,9 @@ export default {
         font-size: 1.1em
         text-indent: 20px
         margin: 0 0 10px
+
+  .the-router-enter-active
+    animation: fadeIn .4s
 
 @media screen and (max-width: 1250px)
   #app
