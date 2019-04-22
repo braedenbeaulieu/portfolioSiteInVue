@@ -3,7 +3,6 @@ import App from './App.vue'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 import VueRouter from 'vue-router'
-import jQuery from 'jquery'
 
 // for font awesome icons
 Vue.component('v-icon', Icon)
@@ -13,8 +12,6 @@ import Portfolio from './components/Portfolio.vue';
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Landing from './components/Landing.vue'
-
-global.$ = jQuery;
 
 Vue.use(VueRouter)
 
@@ -26,6 +23,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 
