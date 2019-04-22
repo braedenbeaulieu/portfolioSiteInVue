@@ -46,7 +46,7 @@ export default {
                     id: 4,
                     title: 'HanDIY',
                     url: 'http://www.handiy.ca',
-                    description: 'A guy I know came to me one day saying he is starting a company and would like someone to do a website for him. He gave me a few colours and folder with stock images and told me  I had 100% creative control. This is my first attempt at a real website and  although it was never truely finished, I\'m happy with how the look turned out.',
+                    description: 'Someone I know was starting a company and asked if I could design him an informational website. He gave me a few colours and folder with a few stock images and told me I had 100% creative control. This was my first attempt at a real website and although it was never truely finished, I\'m happy with how the look turned out.',
                     poster: 'HanDIY',
                     icons: ['fab fa-html5', 'fab fa-sass', 'fab fa-git', 'fab fa-php', 'fab fa-js']
                 }
@@ -84,7 +84,7 @@ export default {
 
             .technologies
                 display: inline-flex
-                justify-content: center
+                justify-content: left
                 align-items: center
                 flex-wrap: wrap
                 width: 80%

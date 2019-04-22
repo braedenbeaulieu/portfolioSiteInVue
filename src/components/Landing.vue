@@ -29,13 +29,13 @@ export default {
     margin: 0
     cursor: default
     
-    div
+    div            
         img
             display: block
             width: 220px
             margin: 0 auto 0
             padding: 30px
-
+            
         h1
             color: white
             font-size: 4em
